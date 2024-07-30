@@ -79,7 +79,7 @@ void create() { head = NULL; }
 
 /**
  * Push data onto the stack.
- * Implements requirements DP-424
+ * Implements requirements SP-3
  */
 void push(int x)
 {
@@ -104,7 +104,7 @@ void push(int x)
 
 /**
  * Pop data from the stack
- * Implement requirement DP-425
+ * Implement requirement SP-1
  */
 int pop()
 {
