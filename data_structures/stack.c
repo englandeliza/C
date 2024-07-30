@@ -14,14 +14,15 @@
 ////////////////////////////////////////////////////////////////////////////////
 // DATA STRUCTURES
 /**
- * creating a stucture with 'data'(type:int), two pointers 'next','pre' (type: struct node) .
+ * creating a stucture with 'data'(type:int), two pointers 'next','pre' (type:
+ * struct node) .
  */
 struct node
 {
     int data;
     struct node *next;
     struct node *pre;
-} * head, *tmp;
+} *head, *tmp;
 
 ////////////////////////////////////////////////////////////////////////////////
 // GLOBAL VARIABLES
@@ -78,6 +79,7 @@ void create() { head = NULL; }
 
 /**
  * Push data onto the stack.
+ * Implements requirements DP-424
  */
 void push(int x)
 {
@@ -102,6 +104,7 @@ void push(int x)
 
 /**
  * Pop data from the stack
+ * Implement requirement DP-425
  */
 int pop()
 {

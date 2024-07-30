@@ -58,7 +58,9 @@ void grow()
     array = tmp;
 }
 
-/* push: pushs the argument onto the stack */
+/* push: pushs the argument onto the stack 
+*  Implements requirement DP-424.
+*/
 void push(void *object)
 {
     assert(object); /* tests whether pointer isn't null */
@@ -85,6 +87,7 @@ void push(void *object)
 
 /*
     pop: pops the top element of the stack from the stack.
+    Implements requirement DP-425.
 */
 void *pop()
 {
